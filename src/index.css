@@ -1,0 +1,32 @@
+@import "tailwindcss";
+*{
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  overscroll-behavior: none;
+  font-family: HelveticaW01-light, Fahkwang !important;
+}
+
+#main{
+  position: relative;
+}
+
+#fixedBackground{
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  background-image: url(https://static.wixstatic.com/media/88aac0_5a431e01c0f546cfb24feafb05a5e9b0~mv2.png);
+}
+
+#mainContent{
+  width: 100vw;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.403);
+}
+
+
